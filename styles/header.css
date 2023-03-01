@@ -20,6 +20,10 @@
   text-decoration: none;
 }
 
+.cabecalho__menu-link:hover {
+  color: var(--cor-botao);
+}
+
 .cabecalho__opcoes {
   display: flex;
   gap: .75rem;
@@ -34,8 +38,16 @@
   color: var(--cor-texto);
 }
 
+.cabecalho__opcoes-entrar:hover {
+  color: var(--cor-botao);
+}
+
 .cabecalho__opcoes-cadastrar {
   color: var(--cor-fundo);
   background-color: var(--cor-botao);
   border-radius: 8px;
+}
+
+.cabecalho__opcoes-cadastrar:hover {
+  background-color: var(--cor-titulo);
 }

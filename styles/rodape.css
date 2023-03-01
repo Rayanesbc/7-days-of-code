@@ -38,6 +38,10 @@
   border-radius: 8px;
 }
 
+.rodape__cadastro-botao:hover {
+  background-color: var(--cor-titulo);
+}
+
 .rodape__cadastro-email {
   background-color: transparent;
   border: 1px solid var(--cor-caixa);
