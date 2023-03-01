@@ -1,0 +1,78 @@
+.conteudo {
+  background-color: var(--cor-fundo);
+  padding: 6rem 5rem;
+}
+
+.conteudo__destaque {
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.destaque-subtitulo {
+  font-weight: 500;
+  font-size: .87rem;
+  color: var(--cor-botao);
+  filter: drop-shadow(0px 4px 4px var(--sombra));
+  background: var(--fundo-claro);
+  border-radius: 16px;
+  padding: 4px 12px;
+  display: inline;
+}
+
+.destaque-titulo {
+  font-weight: 600;
+  font-size: 2.25rem;
+  color: var(--cor-titulo);
+  padding: 1rem 0 1.25rem 0;
+}
+
+.destaque-descricao {
+  font-size: 1.25rem;
+  color: var(--cor-texto);
+  padding-bottom: 4rem;
+}
+
+.destaque-imagem {
+  width: 100%;
+}
+
+.conteudo__vagas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 18% 0 18%;
+  gap: 1.5rem;
+}
+
+.vagas-titulo {
+  color: var(--cor-titulo);
+  font-weight: 500;
+}
+
+.vagas__card {
+  border: 1px solid var(--cor-borda);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.titulo-secao {
+  font-size: 1.25rem;
+  padding: 4rem 0 .5rem 0;
+}
+
+.titulo-card {
+  font-size: 1.125rem;
+}
+
+.descricao {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.card-descricao {
+  color: var(--cor-texto);
+  font-weight: 500;
+}

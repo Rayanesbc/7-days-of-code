@@ -1,0 +1,46 @@
+.depoimentos {
+  background: var(--cor-fundo);
+  padding: 0 5rem 6rem 5rem;
+}
+
+.depoimentos__card {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--cor-depoimentos);
+  border-radius: 1rem;
+  margin: 0 2rem;
+}
+
+.depoimentos-titulo {
+  color: var(--cor-botao);
+  font-weight: 600;
+  font-size: .87rem;
+}
+
+.depoimentos-texto {
+  font-size: 2.25rem;
+  color: var(--cor-titulo);
+  padding: 1rem 0 2rem 0;
+}
+
+.depoimentos-perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.perfil-nome {
+  color: var(--cor-titulo);
+  padding: 1rem 0 .25rem 0;
+  line-height: 24px;
+}
+
+.perfil-cargo {
+  color: var(--cor-texto);
+  font-weight: 400;
+  font-size: .87rem;
+  line-height: 20px;
+}

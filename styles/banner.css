@@ -1,0 +1,27 @@
+.banner {
+  background-color: var(--cor-fundo);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 0;
+  gap: 1.5rem;
+}
+
+.banner__subtitulo {
+  font-weight: 600;
+  color: var(--cor-botao);
+}
+
+.banner__titulo {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--cor-titulo);
+}
+
+.banner__texto {
+  font-size: 1.25rem;
+  color: var(--cor-texto);
+  padding: 0 25%;
+  line-height: 1.87rem;
+}

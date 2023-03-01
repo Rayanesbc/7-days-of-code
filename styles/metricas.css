@@ -1,0 +1,30 @@
+.metricas {
+  background-color: var(--cor-fundo);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0 7rem 6rem 7rem;
+  gap: 2rem;
+}
+
+.metricas__conteudo {
+  display: flex;
+  flex-direction: column;
+}
+
+.metricas__conteudo-titulo {
+  color: var(--cor-botao);
+  font-weight: 600;
+  font-size: 3.75rem;
+}
+
+.metricas__conteudo-subtitulo {
+  color: var(--cor-titulo);
+  font-weight: 500;
+  font-size: 1.12rem;
+  padding: .75rem 0 .5rem 0;
+}
+
+.metricas__conteudo-texto {
+  color: var(--cor-texto);
+  line-height: 1.5rem;
+}
